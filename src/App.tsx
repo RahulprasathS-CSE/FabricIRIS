@@ -172,7 +172,7 @@ export default function App() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
                 <video
-                  src="/src/Simple_Fabric_Inspection_Animation.mp4"
+                  src="/Simple_Fabric_Inspection_Animation.mp4"
                   autoPlay
                   loop
                   muted
