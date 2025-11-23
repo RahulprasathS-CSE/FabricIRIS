@@ -171,11 +171,16 @@ export default function App() {
 
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-xl">
-                <ImageWithFallback
-                  src="https://images.unsplash.com/photo-1760328715296-9714daa8a737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXh0aWxlJTIwZmFicmljJTIwd2VhdmV8ZW58MXx8fHwxNzYzODEzMjI1fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                  alt="HD Fabric Scanning"
+                <video
+                  src="/src/Simple_Fabric_Inspection_Animation.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
                   className="w-full h-auto"
-                />
+                >
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
           </div>
